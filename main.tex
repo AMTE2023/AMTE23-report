@@ -1,0 +1,183 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\usepackage{fancyhdr}
+\usepackage{color}
+\usepackage{etoolbox}
+%\usepackage{a4wide}
+\usepackage{graphicx}
+
+\pagestyle{fancy}
+\fancyhf{}
+%\fancyhead[R]{Dr. Patrick Diehl}
+\fancyhead[c]{AMTE23 - Management report}
+\fancyfoot[C]{(\thepage /\pageref{LastPage})}
+\fancyfoot[R]{\today}
+\fancyfoot[L]{\includegraphics[scale=1]{by-nc-sa}}
+
+
+\title{AMTE23 - Management report}
+\author{Patrick Diehl  \\ Zahra Khatami \\ Steven R. Brandt \\ Parsa Amini}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Key indicators}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+The first submission deadline was May 5th, with an extension to May 19th. We received four full papers at the first extension. Note that the workshop does not accept short papers. In total, four papers were submitted and four papers were accepted ($100$\%). The workshop was scheduled at August 28th, and we had an average attendance of 10 persons for the talks. The keynote was given by Brad Richardson (Berkeley Lab), and 12 persons attended the keynote. The invited talks was given by Jeff Hammond (NVIDIA), and 10 persons attended.
+We initially planned that Thomas Sterling would be the keynote speaker, but due to some complications, he could not travel from the US to Cyprus. Thus, we had to find a new invited speaker with short notice.
+More details are available on the workshop's webpage\footnote{https://amte2023.stellar-group.org/}.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Committees}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Organizing committee}
+\label{sec:committee}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{itemize}
+    \item Patrick Diehl, Center for Computation \& Technology at Louisiana State University, USA
+    \item Zahra Khatami, NVIDIA, USA
+    \item Steven R. Brandt, Center for Computation \& Technology at Louisiana State University, USA
+    \item Parsa Amini, Center for Computation \& Technology at Louisiana State University, USA
+\end{itemize}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Program committee}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Note that we tried to have a good mixture of European-based and American-based program committee members.
+
+\begin{itemize}
+
+    \item Thomas Heller, Exasol, Germany
+    \item Hartmut Kaiser, Louisiana State University, USA
+    \item Dirk Pleiter, KTH Royal Institute of Technology in Stockholm, Sweden
+    \item Roman Iakymchuk, Umea University, Sweden
+    \item Erwin Laure, Max Planck Computing \& Data Facility, Germany
+    \item Patricia Grubel, Los Alamos National Laboratory, USA
+    \item Vassilios Dimakopoulos, University of Ioannina, Greece
+    \item Metin H. Aktulga, Michigan State University, USA
+    \item Brad Richardson, Sourcery Institute, USA
+    \item Huda Ibeid, Intel, USA
+    \item J. “Ram” Ramanujam, Louisiana State University, USA
+    \item Thomas Fahringer, University of Innsbruck, Austria
+    \item Pedro Valero Lara, Oak Ridge National Laboratory, USA
+    \item Michael Wong, Codeplay Software, USA
+    \item Dirk Pflüger, University of Stuttgart, Germany
+    \item Peter Thoman, University of Innsbruck, Austria
+    \item Bryce Adelstein Lelbach, Nvidia, USA
+    \item Weile Wei, Lawrence Berkeley National Laboratory, USA
+    \item Brad Chamberlain, HPE, USA
+    \item Sumathi Lakshmiranganatha, Los Alamos National Laboratory, USA
+    \item Nikunj Gupta, Amazon, USA
+    \item Jan Ciesko, Sandia National Laboratories, USA
+   \item Tianyi Zhang, Amazon Web Service, USA
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Reviewers}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+In addition to the organizers, these program committee members reviewed at least one paper:
+\begin{itemize}
+  \item Weile Wei, Lawrence Berkeley National Laboratory, USA
+   \item Jan Ciesko, Sandia National Laboratories, USA
+    \item Peter Thoman, University of Innsbruck, Austria
+     \item Hartmut Kaiser, Louisiana State University, USA
+    \item Dirk Pleiter, KTH Royal Institute of Technology in Stockholm, Sweden
+    \item Brad Richardson, Sourcery Institute, USA
+ \item Tianyi Zhang, Amazon Web Service, USA
+ \item Nikunj Gupta, Amazon, USA
+  \item Sumathi Lakshmiranganatha, Los Alamos National Laboratory, USA
+\end{itemize}
+The reviewers were assigned to the papers based on their expertise and avoiding conflict of interest. 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Review process management}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+At least three independent reviewers selected from the initial program committee reviewed each paper using EasyChair. Note that all reviewers are listed in Section~\ref{sec:committee}. The deadline for the reviewers was June 20th. However, we received the last missing review on June 24th. The organization committee discussed all papers via email and made their final decision on June 10th. The final notifications were sent to the authors using EasyChair on June 19th. The revised paper was requested by August July 2nd. All papers were uploaded to iThenticate for a plagiarism check, and the report was provided to the submitting author. The authors were asked to address the highlighted issues in the iThenticate report and the reviewer’s comments before submitting the camera-ready version. 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Program}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\begin{itemize}
+ \item 08:55 - 09:00, Opening remarks
+ \item 09:00 - 09:40, Keynote Talk (Brad Richardson, Berkeley Lab)
+ \item 09:40 - 10:05, Making Uintah Performance Portable for Department of Energy Exascale Testbeds (John Holmen, ORNL)
+\item 10:05 - 10:30, Malleable APGAS Programs and their Support in Batch Job Schedulers (Patrick Finnerty, Kobe University)
+\item 0:30 - 11:00, Coffee Break
+\item 11:00 - 11:40, Invited talk (Jeff Hammond, NVIDIA)
+ \item   11:40 - 12:05, Task-Level Checkpointing for Nested Fork-Join Programs using Work Stealing (Lukas Reitz, University of Kassel)
+ \item   12:05 - 12:30, Benchmarking the Parallel 1D Heat Equation Solver in Chapel, Charm++, C++, HPX, Go, Julia, Python, Rust, Swift, and Java (Patrick Diehl, LSU)
+
+
+
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Keynote and Invited talk}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Keynote}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Framework for Extensible, Asynchronous Task Scheduling (FEATS) in Fortran\\
+Brad Richardson, Berkely Lab, USA
+    \begin{center}
+        \textbf{Abstract}
+    \end{center}
+Most parallel scientific programs contain compiler directives (pragmas) such as those from OpenMP, explicit calls to runtime library procedures such as those implementing the Message Passing Interface (MPI), or compiler-specific language extensions such as those provided by CUDA. By contrast, the recent Fortran standards em- power developers to express parallel algorithms without directly referencing lower-level parallel programming models. Fortran’s parallel features place the language within the Partitioned Global Address Space (PGAS) class of programming models. When writing programs that exploit data-parallelism, application developers often find it straightforward to develop custom parallel algorithms. Problems involving complex, heterogeneous, staged calculations, however, pose much greater challenges. Such applications require careful coordination of tasks in a manner that respects dependencies prescribed by a directed acyclic graph. When rolling one’s own solution proves difficult, extending a customizable framework becomes attractive. The paper presents the design, implementation, and use of the Framework for Extensible Asynchronous Task Scheduling (FEATS), which we believe to be the first task-scheduling tool written in modern Fortran. We describe the benefits and compromises associated with choosing Fortran as the implementation language, and we propose ways in which future Fortran standards can best support the use case in this paper.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Invited talk}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ Subtle Asynchrony\\  
+Jeff Hammond, NVIDIA, Finland
+    \begin{center}
+        \textbf{Abstract}
+    \end{center}
+I will discuss subtle asynchrony in two contexts. First, how do we bring asynchronous task parallelism to the Fortran language, without relying on threads or related concepts? Second, I will describe how asynchronous task parallelism emerges in NWChem via overdecomposition, without programmers thinking about tasks. This example demonstrates that many of the principles of asynchronous many task execution can be achieved without specialized runtime systems or programming abstractions.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{List of accepted papers}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{enumerate}
+    \item Task-Level Checkpointing for Nested Fork-Join Programs using Work Stealing \\
+    Authors: Lukas Reitz and Claudia Fohry
+    \begin{center}
+        \textbf{Abstract}
+    \end{center}
+Recent Exascale supercomputers consist of millions of processing units, and this number is still growing. Therefore, hardware failures, such as permanent node failures, become increasingly apparent. They can be tolerated with techniques such as Checkpoint/Restart (C/R), which saves the whole application state transparently, and, in case of failure, restarts the application from the saved state; or application-level checkpointing, which saves only relevant data via explicit calls in the program. C/R has the advantage of requiring no additional programming expense, whereas application-level checkpointing is more efficient and allows to continue running the application on the intact resources (localized shrinking recovery). An increasingly popular approach to code parallel applications is Asynchronous Many-Task (AMT) programming. Here, programmers identify parallel subcomputations, called tasks, and a runtime system assigns the tasks to worker threads. Since tasks have clearly defined interfaces, the runtime can automatically extract and save their interface data. This approach, called task-level checkpointing (TC), combines the respective strengths of C/R and application-level checkpointing. AMTs come in many variants, and so far TC has only been applied to a few, rather simple variants. This paper considers TC for a different AMT variant: nested fork-join programs (NFJ) that run on clusters of multicore nodes under work stealing. We present the first TC implementation for this setting and evaluate it with three benchmarks and up to 1280 workers. We observe an execution time overhead of around 28\% and neglectable recovery costs.
+    \item Making Uintah Performance Portable for Department of Energy Exascale Testbeds \\
+    Authors: John Holmen, Marta Garcia, Abhishek Bagusetty, Allen Sanderson, Martin Berzins
+    \begin{center}
+        \textbf{Abstract}
+    \end{center}
+    To help ease ports to forthcoming Department of Energy (DOE) exascale systems, testbeds have been made available to select users. These testbeds are helpful for preparing codes to run on the same hardware and similar software as in their respective exascale systems. This paper describes how the Uintah Computational Framework, an open-source asynchronous many-task (AMT) runtime system, has been modified to be performance portable across the DOE Crusher, DOE Polaris, and DOE Sunspot testbeds in preparation for portable simulations across the exascale DOE Frontier and DOE Aurora systems. The Crusher, Polaris, and Sunspot testbeds feature the AMD MI250X, NVIDIA A100, and Intel PVC GPUs, respectively. This performance portability has been made possible by extending Uintah’s intermediate portability layer to additionally support the Kokkos::HIP, Kokkos::OpenMPTarget, and Kokkos::SYCL back-ends. This paper also describes notable updates to Uintah’s support for Kokkos, which were required to make this extension possible. Results are shown for a challenging radiative heat transfer calculation, central to the University of Utah’s predictive boiler simulations. These results demonstrate single-source portability across AMD-, NVIDIA-, and Intel-based GPUs using various Kokkos back-ends.
+        \item Malleable APGAS Programs and their Support in Batch Job Schedulers \\
+    Authors: Patrick Finnerty, Leo Takaoka, Takuma Kanzaki, Jonas Posner
+    \begin{center}
+        \textbf{Abstract}
+    \end{center}
+Malleability – the ability of applications to dynamically adjust their resource allocations at runtime – presents great potential for enhancing the efficiency and resource utilization of modern supercomputers. However, applications are rarely capable of growing and shrinking their number of nodes at runtime, and batch job schedulers provide only rudimentary support for these features. While numerous approaches have been proposed for enabling application malleability, these typically concentrate on iterative computations and require complex code modifications. This amplifies the challenges for programmers, who already wrestle with the complexity of traditional MPI inter-node programming. Asynchronous Many-Task (AMT) programming presents a promising alternative. Computations are split into many fine-grained tasks, which are processed by workers. This way, AMT enables transparent task relocation via the runtime system, thus offering great potential for efficient malleability. In this paper, we propose an extension to an existing AMT system, namely APGAS for Java, that provides easy-to-use malleability. More specifically, programmers enable application malleability with only minimal code additions, thanks to the simple abstractions we provide. Runtime adjustments, such as process initialization and termination, are automatically managed. We demonstrate the ease of integration between our extension and future batch job schedulers through the implementation of a simplistic malleable batch job scheduler. Additionally, we validate our extension through the adaption of a load balancing library handling multiple benchmarks. Finally, we show that even a simplistic scheduling strategy for malleable applications improves resource utilization, job throughput, and overall job response time. Slides
+     \item Benchmarking the Parallel 1D Heat Equation Solver in Chapel, Charm++, C++, HPX, Go, Julia, Python, Rust, Swift, and Java \\
+    Authors: Patrick Diehl, Steven Brandt, Max Morris, Hartmut Kaiser
+    \begin{center}
+        \textbf{Abstract}
+    \end{center}
+    Many scientific high performance codes that simulate e.g. black holes, coastal waves, climate and weather, etc. rely on block-structured meshes and use finite differencing methods to iteratively solve the appropriate systems of differential equations. In this paper we investigate implementations of an extremely simple simulation of this type using various programming systems and languages. We focus on a shared memory, parallelized algorithm that simulates a 1D heat diffusion using asynchronous queues for the ghost zone exchange. We discuss the advantages of the various platforms and explore the performance of this model code on different computing architectures: Intel, AMD, and ARM64FX. As a result, Python was the slowest of the set we compared. Java, Go, Swift, and Julia were the intermediate performers. The higher performing platforms were C++, Rust, Chapel, Charm++, and HPX.
+\end{enumerate}
+
+\label{LastPage}  
+\end{document}
